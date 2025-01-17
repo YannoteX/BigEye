@@ -16,9 +16,16 @@ public class MaterialManager : MonoBehaviour
     private bool isTripping = false;
 
     private Vector2 m_screenCenter;
-    private Vector2 m_offset = Vector2.zero;
 
+
+    private Vector2 m_offset = Vector2.zero;
     private float m_irisFactor = 1f;
+    private Color m_irisColor = Color.green;
+
+    public Color irisColor
+    {
+        get { return m_irisColor; }
+    }
 
     private void Start()
     {
@@ -33,6 +40,7 @@ public class MaterialManager : MonoBehaviour
     {
         m_Material.SetVector("_displacement", m_offset);
         m_Material.SetFloat("_irisFactor", m_irisFactor);
+        m_Material.SetColor("_eyeColor", m_irisColor);
     }
 
     private void GetOffsetPosition(Vector2 mousePosition01)
@@ -111,5 +119,10 @@ public class MaterialManager : MonoBehaviour
             else yield return true;
          }
          yield return null;
+    }
+
+    public void ChangeColor(Color color)
+    {
+        m_irisColor = color;
     }
 }

@@ -42,12 +42,11 @@ public class InputManager : MonoBehaviour
                 onPositionMove.Invoke(m_Position);
             }
 
-            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("space")) onFocusMode.Invoke();
+            if (Input.GetKeyDown("space")) onFocusMode.Invoke();
 
-            if (Input.GetMouseButtonDown(1) || Input.GetKeyDown("return")) onTripMode.Invoke();
+            if (Input.GetKeyDown("return")) onTripMode.Invoke();
 
-            if (Input.GetMouseButtonUp(0) || Input.GetKeyUp("space")
-                || Input.GetMouseButtonUp(1) || Input.GetKeyUp("return")) onRelease.Invoke();
+            if (Input.GetKeyUp("space") || Input.GetKeyUp("return")) onRelease.Invoke();
         }
     }
 }
