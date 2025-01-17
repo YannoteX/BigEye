@@ -16,6 +16,5 @@ Réaliser un oeuil "dynamique" à partir des inspirations suivantes :
 
 ## Remarques éventuelles
 
-Futur objectifs : rendre ca beau, animer les striures de l'iris
 
 Des suggestions ?
