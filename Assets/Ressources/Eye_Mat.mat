@@ -131,7 +131,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _focusFactor: 1
-    - _irisFactor: 0.98
+    - _irisFactor: 1.02
     - _isFocused: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -139,8 +139,8 @@ Material:
     - _Displacement: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _displacement: {r: 0.0039590313, g: -0.12593779, b: 0, a: 0}
-    - _eyeColor: {r: 0, g: 0.41726613, b: 1, a: 1}
+    - _displacement: {r: 0.003951597, g: -0.12593801, b: 0, a: 0}
+    - _eyeColor: {r: 0, g: 1, b: 0.07194233, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6421069768347847745
