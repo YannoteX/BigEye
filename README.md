@@ -12,7 +12,7 @@ Réaliser un oeuil "dynamique" à partir des inspirations suivantes :
 - Bouger la souris pour regarder
 - Clic gauche ou espace pour se concentrer
 - Clic droit ou entrée pour tripper
-- Couleur des yeux (j'ai pas mis l'UI encore...)
+- Couleur des yeux
 
 ## Remarques éventuelles
 
